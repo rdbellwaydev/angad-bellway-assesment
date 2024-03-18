@@ -1,0 +1,1057 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(120.63deg, #510707 29.73%, rgba(0, 0, 0, 0.85) 105.91%);
+    position: relative;
+    overflow-x: hidden;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+     */
+}
+
+
+p{
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    font-size: 56px;
+    height: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.top-text{
+    width: 670px;
+    height: 192px;
+    margin-left: 215px;
+    margin-top: 200px;
+}
+h1{
+    font-size: 24.3px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 1);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.lines{
+
+    position: relative;
+    margin-top: -550px;
+    right: 1380px;
+    
+    width: 155px;
+    position: absolute; 
+} 
+
+.first-img{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 800px;
+    height: 350px;
+
+}
+
+.comp-img{
+    position: relative;
+    margin-top: -265px;
+    margin-left: 1050px;
+    height: 370px;
+}
+
+.btn{
+   
+    border:  8px solid;
+    background-color: transparent;
+    border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+    color: white;
+    border-image-slice: 1;
+    border-radius: 10px;
+    font-size: 19px;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+}
+
+.btn:hover{
+    background-color: pink;
+    color: black;
+}
+
+.proff-service{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 127px;
+}
+
+h2{
+    font-size: 43px ;
+    font-weight: 30px;
+    margin-left: 457px;
+    margin-top: 110px;
+    color: white;
+}
+
+.abt-us{
+    position: relative;
+    margin-left: 190px;
+    margin-top: 75px;
+}
+
+.abtus-text{
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.button-2{
+    
+width: Hug (163px);
+height: Hug (56px);
+margin-top: -650px;
+margin-left: 865px;
+padding: 10px 30px 10px 30px;
+gap: 10px;
+border-radius: 5px ;  
+border: 8px;
+font-size: 20px;
+background-color: transparent;
+color: white;
+border: 8px solid;
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+}
+
+.button-2:hover{
+    background-color: pink;
+    color: black;
+    
+}
+
+.explore-box{
+    width: 1350px;
+    height: 868px;
+    margin-bottom: 700px;
+    margin-top: 140px;
+    margin-left:  88px;
+    /* margin-right: 900px;  */
+   display: flex;
+   justify-content: center;
+   align-items: top;
+   background: #B22C2C33;
+   border-radius: 100px;
+}
+
+.figma{
+   position: relative;
+    /* margin: 1px 1px 1px 1px; */
+    height: 140px;
+    width:140px;
+    margin-top: 200px;
+    margin-inline-start: -590px;
+}
+
+.adobe{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: 33px;
+    margin-bottom: -38px;
+}
+
+.mysql{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: -315.2px;
+    margin-bottom: -380px;
+}
+
+.mongodb{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: 30px;
+    margin-bottom: -310px;
+}
+
+.laravel{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: 92px;
+    margin-bottom: -91px;
+}
+
+.amazon{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-bottom: -275px;
+    margin-inline-start: -145px ;
+}
+
+.nodejs{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-bottom: -90.2px;
+    margin-inline-start: 37px;
+}
+
+.googlecloud{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-bottom: -270px;
+    margin-inline-start: -145.5px;
+}
+
+.flutter{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: 94px;
+    margin-bottom: -40px;
+}
+
+.postman{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: -140px ;
+    margin-bottom: -311px;
+}
+
+.reactjs{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-inline-start: 30px ;
+    margin-bottom: -2px;
+}
+
+.android{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-bottom: -370px;
+    margin-inline-start: -140px;
+}
+
+.exp{
+    color: white;
+    position: relative;
+    border: 8px solid;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid;
+  font-size: 25px;
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+margin-top: 400px;
+margin-inline-start: -85px;
+}
+
+.exp:hover{
+    background-color: pink;
+    color: black;
+}
+ 
+.portfolio{
+    position: relative;
+    color: white;
+   display: flex;
+   justify-content:baseline;
+   margin-inline-start: 600px;
+   margin-top: -550px;
+}
+
+.young-pic{
+    position: relative;
+    height:600px;
+    margin-inline-start: 50px;
+    margin-top: 100px;
+}
+
+
+.connector{
+    position: relative;
+    height: 160px;
+    margin-bottom: 200px;
+}
+
+.oneapp{
+    position: relative;
+    height:420px;
+   margin-bottom: 45px;
+   margin-inline-start: 250px;
+}
+
+.endofseason{
+    position: relative;
+    height: 530px;
+    margin-inline-start: 1150px;
+    margin-top: -1500px;
+}
+
+.cartrade{
+    position: relative;
+    height: 600px;
+    margin-inline-start: 1000px;
+    margin-top: -820px;
+}
+
+.viewportfolio{
+    position: relative;
+    width: Hug (217px);
+   height: Hug (56px);
+margin-top: 50px;
+margin-left: 692px;
+padding: 10px 40px 10px 40px;
+gap: 10px;
+border-radius: 10px;   
+border: 8px   ;
+font-size: 20px;
+background-color: transparent;
+color: white;
+border: 8px solid;
+
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+}
+
+.viewportfolio:hover{
+    background-color: pink;
+    color: black;
+}
+
+.global{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    font-weight: 100px;
+    font-size: 45px;
+    
+}
+
+.globalnetwork{
+   position: relative;
+   margin-inline-start: 200px ;
+   font-size: 45px;
+   margin-top:70px;
+   font-weight: 400;
+}
+
+.longtext{
+    color: white;
+    position: relative;
+    margin-inline-start: 200px ;
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.map{
+    height: 300px;
+    position: relative;
+    margin-inline-start: 780px;
+    /* margin-bottom: 200px; */
+    bottom: 250px;
+}
+
+.learn{
+    position: relative;
+    width: 170px;
+   height:  56px;
+margin-left: 200px;
+padding : 10px, 30px, 10px, 30px;
+
+border-radius: 5px;   
+ font: 1.2em sans-serif;
+color: white; 
+background-color: transparent;
+border: 8px solid;
+
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+bottom: 270px;
+
+}
+
+.learn:hover{
+    background-color: pink;
+    color: black;
+}
+
+
+.brands{
+    position: relative;
+    margin-inline-start: 550px;
+    bottom: 200px;
+    font-size: 50px;
+    
+}
+
+.longtext-two{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-inline-end: 433px;
+   bottom: 310px;
+    
+}
+
+.second-part{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-inline-end: 433px;
+    bottom: 400px;
+
+}
+
+.brands-pic{
+    position: relative;
+    height:480px;
+    width: 1200px;
+    margin-inline-start: 180px;
+    bottom: 300px;
+}
+
+.ourgal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   bottom: 230px;
+}
+
+/* .slider{
+     width:100vw;
+    height:110vh ;
+    background: url(./picmain.png);
+    margin:100px auto;
+    animation: slide 20s infinite;
+
+}  */
+ /* .ourgall{
+    position: relative;
+    height: 450px;
+    margin-inline-start: 65px;
+    margin-top: 150px;
+
+ } */
+
+ /* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+/* body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(25,12,41);
+} */
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    margin-inline-start: 310px;
+    bottom: 170px;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -70%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+/* #img4:checked ~ .m4 {
+    margin-left: -300%;
+} */
+
+.clients{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   bottom: 100px;
+    font-size: 50px;
+}
+
+.pinkbox{
+    position: relative;
+    height: 550px;
+    margin-inline-start: 230px;
+    margin-top: 105px;
+
+}
+
+.pinkwhitebox{
+    position: relative;
+    height: 380px;
+    margin-inline-start: -328px;
+    bottom: 230px;
+
+}
+
+.manish-nair{
+ position: relative;
+ height: 60px;
+ margin-inline-start: -280px;
+ bottom: 170px;
+
+}
+
+.doublequotes{
+    position: relative;
+    height:20px;
+    margin-inline-start: -200px;
+    bottom:555px ;
+}
+
+.manishtext{
+    position: relative;
+    bottom:559px;
+    left:10px;
+    width: 212px;
+    color: black;
+height: 256px;
+/* margin-bottom: 250px; */
+margin-left: 294px;
+font-family: Inter;
+font-size: 29px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.readmorepink{
+    position: relative;
+    bottom:1080px;
+    left:430px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px 6px;
+
+
+}
+
+.readmorepink:hover{
+    background-color: #FFB4B4;
+    
+}
+.bluebox{
+    position: relative;
+    height:550px;
+    left:500px;
+    bottom:800px
+}
+
+.bluewhitebox{
+    position: relative;
+    height: 380px;
+    bottom:1041px;
+    left:170px;
+}
+
+.prakash{
+    position: relative;
+    height: 60px;
+    bottom:980px;
+    right: 100px;
+
+}
+
+.bluequote{
+    position:relative;
+    height: 20px;
+    bottom: 1300px;
+    right:340px;
+
+}
+
+.praksh-text{
+    position: relative;
+    bottom:1310px;
+width: 212px;
+height: 128px;
+/* top: 68px; */
+left: 694px;
+/* font-family: Inter; */
+font-size: 27px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: black;
+
+}
+
+.greenbox{
+    position: relative;
+    height: 550px;
+    bottom: 1500px;
+    left:1005px;
+}
+
+.greenwhite{
+    position: relative;
+    height: 380px;
+    bottom: 1737px;
+    left:670px;
+}
+
+.greenquotes{
+    position: relative;
+    height: 20px;
+    bottom: 2020px;
+    left:400px;
+
+}
+
+.py{
+   position: relative;
+   height: 60px;
+   bottom: 1665px;
+   left:375px;
+}
+
+.pytext{
+    position: relative;
+    width: 212px;
+    height: 224px;
+    bottom: 2030px;
+    left: 1075px;
+    /* font-family: Inter; */
+font-size: 27px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: black;
+
+
+}
+
+.form{
+    position: relative;
+    bottom: 1570px;
+    width: 1520px;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(124, 19, 19, 0.5) 0%, rgba(155, 105, 105, 0.5) 100%);
+
+    
+}
+
+.question-mark{
+    position: relative;
+    width: 300px;
+height: 300px; 
+top:20px
+
+
+}
+
+.form-text{
+    position: relative;
+    width: 818px;
+    height: 64px;
+    /* font-family: Inter; */
+font-size: 27.5px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+left: 320px;
+bottom: 198px;
+
+
+}
+
+.Your-Name{
+    position: relative;
+    width: 127px;
+    height: 32px;
+    /* font-family: Inter; */
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+left:313px;
+bottom: 168px;
+
+}
+
+.name{
+    position: relative;
+    width: 500px;
+   height: 50px;
+  left:310px;
+  bottom: 153px;
+  
+ border: 4px solid; 
+background-color: transparent;
+border-image-source: linear-gradient(95.74deg, #DAB1B1 38.83%, #B22C2C 54.57%);
+border-image-slice: 1;
+color: white;
+font-size: 24px;
+
+}
+
+.contact{
+    position: relative;
+    width: 251px;
+height: 32px;
+bottom: 137px;
+left: 310px;
+font-size: 24px;
+font-weight: 600;
+}
+
+.contact-number{
+    position: relative;
+    width: 500px;
+   height: 50px;
+  left:310px;
+  bottom: 123px;
+  
+ border: 4px solid; 
+background-color: transparent;
+border-image-source: linear-gradient(95.74deg, #DAB1B1 38.83%, #B22C2C 54.57%);
+border-image-slice: 1;
+color: white;
+font-size: 24px;
+
+}
+
+.thoughts{
+    position: relative;
+    width: 251px;
+height: 32px;
+bottom: 100px;
+left: 310px;
+font-size: 24px;
+font-weight: 600;
+}
+
+.your-thoughts{
+    position: relative;
+    width: 500px;
+   height: 150px;
+  left:310px;
+  bottom: 450px;
+  
+ border: 4px solid; 
+background-color: transparent;
+border-image-source: linear-gradient(95.74deg, #DAB1B1 38.83%, #B22C2C 54.57%);
+border-image-slice: 1;
+color: white;
+font-size: 20px;
+padding: 0;
+    margin: 0;
+
+}
+
+.feedback{
+    position: relative;
+    width: Hug (265px);
+height: Hug (56px);
+bottom: 298px;
+padding: 10px 25px 10px 25px;
+gap: 10px;
+border-radius: 5px ;  
+border: 8px   ;
+border: 9px solid;
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+background-color: #C91B1B33;
+;
+color: white;
+font-size: 24px;
+right: 193px;
+
+
+}
+
+.feedback:hover{
+    background-color: pink;
+    color: black;
+}
+
+.computer{
+    position: relative;
+    height:450px;
+    
+    bottom: 370px;
+}
+
+.ques2{
+    position: relative;
+    height: 220px;
+    left: 1280px;
+    bottom: 490px;
+}
+
+.ideas{
+    position: relative;
+    width: 1520px;
+    height: 190px;
+     bottom: 1600px;
+background: #601414;
+
+
+
+}
+
+.connect-us{
+    position: relative;
+    width: 760px;
+height: 36px;
+top:75px;
+left: 199px;
+/* font-family: Inter; */
+font-size: 37.5px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.05em;
+text-align: left;
+
+
+}
+
+.connect-withus{
+    position: relative;
+    width: 250px;
+    height: 56px;
+    /* top: 8255px */
+    top:34px;
+    left: 1100px;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+    border-radius: 5px ;  
+    /* border: 8px   ; */
+    border: 8px solid;
+font-size: 23px;
+border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
+border-image-slice: 1;
+background-color: #C91B1B33;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center
+;
+    
+}
+
+.connect-withus:hover{
+    background-color: pink;
+    color: black;
+}
+
+.pen{
+    position: relative;
+    height: 130px;
+    bottom: 172px;
+    left:45px
+}
+
+/* .logo{
+    position: relative;
+    height:100px;
+    bottom:1500px;
+    left:100px
+}
+.footer-text{
+    position: relative;
+    bottom: 1470px;
+    font-size: 24px;
+    left: 130px;
+    font-weight: 100;
+}
+
+.company{
+    position: relative;
+    bottom: 1635px;
+    left:640px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.product{
+    position: relative;
+    bottom: 1930px;
+    left:850px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.contact{
+    position: relative;
+    bottom: 2408px;
+    left:1050px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.company-list{
+    position: relative;
+    bottom: 1600px;
+    left:640px;
+    font-size: 30px;
+    font-weight: 100;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+
+.product-list{
+    position: relative;
+    bottom: 1900px;
+    margin-inline-start:855px;
+    font-size: 30px;
+    font-weight: 100;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+} */
+/* #footer-container{
+    height: 400px;
+} */
+footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: transparent;
+     padding: 100px 10%;
+    bottom: 1560px; 
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    height: 23px;
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: relative;
+    left: 0;
+    bottom: -50px;
+    
+    height: 2px;
+    width: 40px;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+
+.links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+
+/* .footer-logo{
+    position: relative;
+    height: 80px;
+    bottom: 200px;
+    right: 70px;
+     */

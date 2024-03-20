@@ -35,13 +35,26 @@ p{
     height: 192px;
     margin-left: 215px;
     margin-top: 200px;
+    animation:top-text 4s ease-in 1s 2 ;
+}
+@keyframes top-text{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 h1{
     font-size: 24.3px;
     font-weight: 200;
     color: rgba(255, 255, 255, 1);
     font-family:Arial, Helvetica, sans-serif ;
+    /* animation: animate 2s linear infinite ; */
 }
+
+
+
 .lines{
 
     position: relative;
@@ -57,7 +70,22 @@ h1{
     margin-top: -500px;
     margin-left: 800px;
     height: 350px;
+    animation: first-img 1s linear infinite;
 
+}
+@keyframes first-img{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    /* from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0px);
+    } */
 }
 
 .comp-img{
@@ -65,8 +93,17 @@ h1{
     margin-top: -265px;
     margin-left: 1050px;
     height: 370px;
-}
+    animation: comp-img 1s linear infinite;
 
+}
+@keyframes comp-img{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
 .btn{
    
     border:  8px solid;
@@ -89,28 +126,62 @@ h1{
     position: relative;
     margin-top: 200px;
     margin-left: 127px;
+    animation: proff-service 3s ease-in 1s 2 ;
 }
+@keyframes proff-service{
+    0%{
+        transform: scale(0.5);
 
+    }
+    100%{
+       transform: scale(); 
+    }
+}
 h2{
     font-size: 43px ;
     font-weight: 30px;
     margin-left: 457px;
     margin-top: 110px;
     color: white;
+    animation: h2 3s ease-in 2;
 }
+@keyframes h2 {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+  }
 
 .abt-us{
     position: relative;
     margin-left: 190px;
     margin-top: 75px;
+    animation: abt-us 3s linear 2;
 }
-
+@keyframes abt-us {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 .abtus-text{
     position: relative;
     margin-left: 70px;
     margin-bottom: 60px;
+    animation: abtus-text 3s ease-in 2 ;
 }
-
+@keyframes abtus-text{
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 .button-2{
     
 width: Hug (163px);
@@ -127,8 +198,16 @@ color: white;
 border: 8px solid;
 border-image-source: linear-gradient(94.03deg, #AE2B2B 37.09%, rgba(249, 219, 219, 0.66) 71.13%);
 border-image-slice: 1;
+animation: button-2 3s ease-in  2;
 }
-
+@keyframes button-2{
+   0%{
+    transform: translatey(100px);
+   }
+   100%{
+    transform: translatey(0px);
+   }
+}
 .button-2:hover{
     background-color: pink;
     color: black;
@@ -140,7 +219,7 @@ border-image-slice: 1;
     height: 868px;
     margin-bottom: 700px;
     margin-top: 140px;
-    margin-left:  88px;
+    margin-left:  90px;
     /* margin-right: 900px;  */
    display: flex;
    justify-content: center;
@@ -156,96 +235,197 @@ border-image-slice: 1;
     width:140px;
     margin-top: 200px;
     margin-inline-start: -590px;
+    animation: figma 2s ease-in 1 ;
 }
-
+@keyframes figma{
+    0%{
+        transform: translatey(-200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .adobe{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: 33px;
     margin-bottom: -38px;
+    animation: adobe 1s ease-in 1 ;
 }
-
+@keyframes adobe{
+    0%{
+        transform: translatey(-200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .mysql{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: -315.2px;
     margin-bottom: -380px;
+    animation: mysql 2s ease-in 1 ;
 }
-
+@keyframes mysql{
+    0%{
+        transform: translatey(200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .mongodb{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: 30px;
     margin-bottom: -310px;
+    animation: mongodb 1s ease-in 1 ;
 }
-
+@keyframes mongodb{
+    0%{
+        transform: translatey(200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .laravel{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: 92px;
     margin-bottom: -91px;
+    animation: laravel 1s ease-in  1 ;
 }
+@keyframes laravel{
+    0%{
+        transform: scale(0.5);
 
+    }
+    100%{
+       transform: scale(); 
+    }
+}
 .amazon{
     position: relative;
     height: 140px;
     width: 140px;
     margin-bottom: -275px;
     margin-inline-start: -145px ;
+    animation: amazon 1s ease-in  1 ;
 }
+@keyframes amazon{
+    0%{
+        transform: scale(0.5);
 
+    }
+    100%{
+       transform: scale(); 
+    }
+}
 .nodejs{
     position: relative;
     height: 140px;
     width: 140px;
     margin-bottom: -90.2px;
     margin-inline-start: 37px;
+    animation: nodejs 1s ease-in  1 ;
 }
+@keyframes nodejs{
+    0%{
+        transform: scale(0.5);
 
+    }
+    100%{
+       transform: scale(); 
+    }
+}
 .googlecloud{
     position: relative;
     height: 140px;
     width: 140px;
     margin-bottom: -270px;
     margin-inline-start: -145.5px;
+    animation: googlecloud 1s ease-in  1 ;
 }
+@keyframes googlecloud{
+    0%{
+        transform: scale(0.5);
 
+    }
+    100%{
+       transform: scale(); 
+    }
+}
 .flutter{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: 94px;
     margin-bottom: -40px;
-}
+    animation: flutter 1s ease-in 1 ;
 
+}
+@keyframes flutter{
+    0%{
+        transform: translatey(-200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .postman{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: -140px ;
     margin-bottom: -311px;
+    animation: postman 1s ease-in 1 ;
 }
-
+@keyframes postman{
+    0%{
+        transform: translatey(200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .reactjs{
     position: relative;
     height: 140px;
     width: 140px;
     margin-inline-start: 30px ;
     margin-bottom: -2px;
+    animation: react 2s ease-in 1 ;
 }
-
+@keyframes react{
+    0%{
+        transform: translatey(-200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .android{
     position: relative;
     height: 140px;
     width: 140px;
     margin-bottom: -370px;
     margin-inline-start: -140px;
+    animation: android 2s ease-in 1 ;
 }
-
+@keyframes android{
+    0%{
+        transform: translatey(200px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
 .exp{
     color: white;
     position: relative;
@@ -275,43 +455,95 @@ margin-inline-start: -85px;
    justify-content:baseline;
    margin-inline-start: 600px;
    margin-top: -550px;
+   animation: portfolio 2s  ease-in  1 ;
 }
-
+@keyframes portfolio{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .young-pic{
     position: relative;
     height:600px;
     margin-inline-start: 50px;
     margin-top: 100px;
+    animation: young-pic 2s ease-in  1 ;
 }
-
+@keyframes young-pic{
+    0%{
+       transform: scale(0.5); 
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 .connector{
     position: relative;
     height: 160px;
     margin-bottom: 200px;
-}
+    animation:connector 2s ease-in  1 ;
 
+}
+@keyframes connector{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .oneapp{
     position: relative;
     height:420px;
    margin-bottom: 45px;
    margin-inline-start: 250px;
+   animation: oneapp 0.5s ease-in  1 ;
 }
 
+@keyframes oneapp{
+    0%{
+       transform: scale(0.5); 
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .endofseason{
     position: relative;
     height: 530px;
     margin-inline-start: 1150px;
     margin-top: -1500px;
-}
+    animation: endofseason 1s ease-in  1 ;
 
+}
+@keyframes endofseason{
+    0%{
+       transform: scale(0.5); 
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .cartrade{
     position: relative;
     height: 600px;
     margin-inline-start: 1000px;
     margin-top: -820px;
-}
+    animation: cartrade 2s ease-in  1 ;
 
+}
+@keyframes cartrade{
+    0%{
+       transform: scale(0.5); 
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .viewportfolio{
     position: relative;
     width: Hug (217px);
@@ -343,15 +575,32 @@ border-image-slice: 1;
     margin-top: 160px;
     font-weight: 100px;
     font-size: 45px;
-    
-}
+    animation: global 1s ease-in  1 ;
 
+}
+@keyframes global{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .globalnetwork{
    position: relative;
    margin-inline-start: 200px ;
    font-size: 45px;
    margin-top:70px;
    font-weight: 400;
+   animation: globalnetwork 1s ease-in  1 ;
+}
+@keyframes globalnetwork{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 
 .longtext{
@@ -361,16 +610,32 @@ border-image-slice: 1;
     font-family:sans-serif;
     font-size: 25px;
     font-weight: 10px;
+    animation: longtext 1.5s ease-in  1 ;
 }
-
+@keyframes longtext{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .map{
     height: 300px;
     position: relative;
     margin-inline-start: 780px;
     /* margin-bottom: 200px; */
     bottom: 250px;
+    animation: map 5s linear infinite;
 }
-
+@keyframes map {
+    0% {
+      transform: rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+      transform: rotateY(360deg) rotateX(360deg);
+    }
+  }
 .learn{
     position: relative;
     width: 170px;
@@ -401,9 +666,16 @@ bottom: 270px;
     margin-inline-start: 550px;
     bottom: 200px;
     font-size: 50px;
-    
+    animation: brands 3s ease-in  1 ;
 }
-
+@keyframes brands{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .longtext-two{
     position: relative;
     display: flex;
@@ -432,8 +704,16 @@ bottom: 270px;
     width: 1200px;
     margin-inline-start: 180px;
     bottom: 300px;
+    animation: brands-pic 2s ease-in  1 ;
 }
-
+@keyframes brands-pic{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
 .ourgal{
     position: relative;
     display: flex;
@@ -530,32 +810,61 @@ bottom: 270px;
     height: 550px;
     margin-inline-start: 230px;
     margin-top: 105px;
-
+    animation: pinkbox 1s ease-in 1 ;
 }
-
+@keyframes pinkbox{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .pinkwhitebox{
     position: relative;
     height: 380px;
     margin-inline-start: -328px;
     bottom: 230px;
-
+    animation: pinkwhitebox 1.5s ease-in 1 ;
 }
-
+@keyframes pinkwhitebox{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .manish-nair{
  position: relative;
  height: 60px;
  margin-inline-start: -280px;
  bottom: 170px;
-
+ animation: manish-nair 2.5s ease-in 1 ;
 }
-
+@keyframes manish-nair{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .doublequotes{
     position: relative;
     height:20px;
     margin-inline-start: -200px;
     bottom:555px ;
+    animation: doublequotes 2s ease-in 1 ;
 }
-
+@keyframes doublequotes{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .manishtext{
     position: relative;
     bottom:559px;
@@ -571,8 +880,16 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: center;
+animation: manishtext 2s ease-in 1 ;
 
-
+}
+@keyframes manishtext{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 .readmorepink{
     position: relative;
@@ -583,10 +900,17 @@ text-align: center;
     font-size: 18px;
     border-radius: 5px;
     padding: 4px 6px;
-
+    animation: readmorepink 2s ease-in 1 ;
 
 }
-
+@keyframes readmorepink{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .readmorepink:hover{
     background-color: #FFB4B4;
     
@@ -595,7 +919,16 @@ text-align: center;
     position: relative;
     height:550px;
     left:500px;
-    bottom:800px
+    bottom:800px;
+    animation: bluebox 1s ease-in  ;
+}
+@keyframes bluebox{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
 
 .bluewhitebox{
@@ -603,24 +936,46 @@ text-align: center;
     height: 380px;
     bottom:1041px;
     left:170px;
+    animation: bluewhitebox 1.5s ease-in 1 ;
 }
-
+@keyframes bluewhitebox{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .prakash{
     position: relative;
     height: 60px;
     bottom:980px;
     right: 100px;
-
+    animation: praksh 2.5s ease-in 1 ;
 }
-
+@keyframes praksh{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .bluequote{
     position:relative;
     height: 20px;
     bottom: 1300px;
     right:340px;
-
+    animation: bluequotes 2s ease-in 1 ;
 }
-
+@keyframes bluequotes{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .praksh-text{
     position: relative;
     bottom:1310px;
@@ -635,36 +990,75 @@ line-height: 32px;
 letter-spacing: 0em;
 text-align: center;
 color: black;
-
+animation: praksh-text 2s ease-in 1 ;
 }
-
+@keyframes praksh-text{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 .greenbox{
     position: relative;
     height: 550px;
     bottom: 1500px;
     left:1005px;
+    animation: greenbox 1s ease-in 1 ;
 }
-
+@keyframes greenbox{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .greenwhite{
     position: relative;
     height: 380px;
     bottom: 1737px;
     left:670px;
+    animation: greenwhite 1.5s ease-in 1 ;
 }
-
+@keyframes greenwhite{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .greenquotes{
     position: relative;
     height: 20px;
     bottom: 2020px;
     left:400px;
-
+    animation: greenquotes 2s ease-in 1 ;
 }
-
+@keyframes greenquotes{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .py{
    position: relative;
    height: 60px;
    bottom: 1665px;
    left:375px;
+   animation: py 2.5s ease-in 1 ;
+}
+@keyframes py{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 
 .pytext{
@@ -680,10 +1074,17 @@ line-height: 32px;
 letter-spacing: 0em;
 text-align: center;
 color: black;
-
+animation: pytext 2s ease-in 1 ;
 
 }
-
+@keyframes pytext{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
 .form{
     position: relative;
     bottom: 1570px;
@@ -698,9 +1099,16 @@ color: black;
     position: relative;
     width: 300px;
 height: 300px; 
-top:20px
-
-
+top:20px;
+animation : question-mark 3s ease-in  infinite ;
+}
+@keyframes question-mark{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .form-text{
@@ -834,15 +1242,32 @@ right: 193px;
     height:450px;
     
     bottom: 370px;
+    animation: computer 1s linear infinite;
 }
-
+@keyframes computer{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
 .ques2{
     position: relative;
     height: 220px;
     left: 1280px;
     bottom: 490px;
+    animation: ques2 3s ease-in  infinite ;
 }
 
+@keyframes ques2{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .ideas{
     position: relative;
     width: 1520px;
@@ -903,9 +1328,17 @@ align-items: center
     position: relative;
     height: 130px;
     bottom: 172px;
-    left:45px
+    left:45px;
+    animation: pen 0.5s ease-in-out infinite alternate;
 }
-
+@keyframes pen {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100px; /* Adjust the distance to move */
+    }
+  }
 /* .logo{
     position: relative;
     height:100px;
